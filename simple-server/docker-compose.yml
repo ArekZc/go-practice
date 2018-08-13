@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  devbox:
+    build:
+      context: .
+    volumes:
+      - "./src:/go/src"
+      - "./bin:/go/bin"
